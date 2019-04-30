@@ -20,6 +20,21 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    // 1. ^^^ what is this
+    //  it's a 'React Lifecycle Method'
+
+    // 2. Whaat is it called?
+    // React will call methos for you
+
+    // 3. Who calls is?
+    // React will call the method for you
+
+    // 4. When do I need it?
+    // Its usefull for starting timers (using setInterval or requestAnimationFrame)
+    // or if you're fetching data from an API to load to the component's state
+    // or any time you need to call .setState for the first time for a component
+
+    
     console.log(`componentDidMount`);
     this._getCharactersForPage();
   }
